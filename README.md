@@ -21,3 +21,6 @@ Possibilitando assim que o diagnóstico possa ser dado de forma eficiente, sem q
 ## Exemplos de input:
 
 ![exampleblurr](https://user-images.githubusercontent.com/61745399/169726527-df416ac3-4695-47c6-842a-2868497a4c4c.jpeg)
+
+
+![exampleblurr2](https://user-images.githubusercontent.com/61745399/169726757-d013043c-f7fb-4420-ae82-b0ecbec36024.jpg)
