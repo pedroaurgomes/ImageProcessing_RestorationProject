@@ -20,7 +20,7 @@ Possibilitando assim que o diagnóstico possa ser dado de forma eficiente, sem q
 
 ## Exemplos de input:
 
-![exampleblurr](https://user-images.githubusercontent.com/61745399/169726527-df416ac3-4695-47c6-842a-2868497a4c4c.jpeg | width=300 height=300)
+![photo1653268298](https://user-images.githubusercontent.com/62620260/169727499-55496bd7-361a-4249-82a7-c6c3d7535dd1.jpeg)
 
 
 ![exampleblurr2](https://user-images.githubusercontent.com/61745399/169726757-d013043c-f7fb-4420-ae82-b0ecbec36024.jpg | width=100 height=300)
