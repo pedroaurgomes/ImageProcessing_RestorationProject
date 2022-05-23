@@ -23,4 +23,4 @@ Possibilitando assim que o diagnóstico possa ser dado de forma eficiente, sem q
 ![photo1653268298](https://user-images.githubusercontent.com/62620260/169727499-55496bd7-361a-4249-82a7-c6c3d7535dd1.jpeg)
 
 
-![exampleblurr2](https://user-images.githubusercontent.com/61745399/169726757-d013043c-f7fb-4420-ae82-b0ecbec36024.jpg | width=100 height=300)
+![photo1653269176](https://user-images.githubusercontent.com/62620260/169727750-cb42ed18-b0cf-4d1d-8e63-737aee592dbc.jpeg)
