@@ -16,12 +16,6 @@ do paciente ter se movido durante o procedimento de aquisição da imagem, entre
 ## Aplicação:
  * Imagens médicas
 
-## Exemplos de input:
-
-<img src="https://user-images.githubusercontent.com/62620260/169727499-55496bd7-361a-4249-82a7-c6c3d7535dd1.jpeg" alt="MRI Blurred" height="400"/>
-
-<img src="https://user-images.githubusercontent.com/62620260/169727750-cb42ed18-b0cf-4d1d-8e63-737aee592dbc.jpeg" alt="MRI Blurred" height="400"/>
-
 ## Descrição das imagens de input:
 
 
