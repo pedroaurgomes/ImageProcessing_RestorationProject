@@ -25,9 +25,14 @@ que justificam reparo. Por esse motivo, optou-se por uma etapa de pré-processam
 nas imagens com o intuito de simular uma PSF (Point Spread Function), isto é , uma função de degradação, proveniente de acidentes que podem 
 ocorrer na realidade, utilizando filtros de blur.
 
-### Algoritmo de pré-processamento: < COLOCAR LINK DO PROGRAMA AQUI>
+### [Algoritmo de pré-processamento](./src/PreProcBlurring.ipynb)
 
-Exemplos de imagens pré-processadas: <COLOCAR IMAGENS ANTES E DEPOIS DO PRÉ-PROCESSAMENTO AQUI>
+Exemplos de pré-processamento: <br>
+
+| Original | Pré-processada|
+|----------|---------------|
+|![Imagem 3 Original ](./assets/Original3.jpg)|![Imagem 3 Blurred ](./assets/Blurred3.jpg)|
+|![Imagem 6 Original ](./assets/Original6.jpg)|![Imagem 6 Blurred ](./assets/Blurred6.jpg)|
 
 
 Após o pré-processamento, as imagens serão enviadas como entrada ao algoritmo que efetuará o processo de restauração.
@@ -37,14 +42,15 @@ de degradação (Point Spread Function). Sendo assim, após realizar uma pesquis
 utilizado o Algoritmo de Deconvolução Cega Richardson-Lucy, o qual estima a imagem restaurada a partir da imagem dada na entrada, bem como a PSF, a 
 partir de uma PSF inicial arbitrária, após uma série de iterações.
 
-#### Modelo RL para estimar a imagem restaurada:
+### [Algoritmo de Restauração](./src/PartialResultsRestorationRL.ipynb)
 
-<IMAGEM DA PRIMEIRA EQUAÇÃO>
+#### Modelo RL para estimar a imagem restaurada: <br>
 
-#### Modelo RL  para estimar a PSF:
-<IMAGEM DA SEGUNDA EQUAÇÃO>
+![modelo para estimar a imagem restaurada](./assets/EquacaoEstimarImg.png)
+
+#### Modelo RL  para estimar a PSF: <br>
+![modelo para estimar a PSF](./assets/EquacaoEstimarPSF.png)
 
 **Referência:**
 [Yu A Bunyak, O Yu Sofina and R N Kvetnyy 2012 Blind PSF estimation and methods of deconvolution optimization](https://arxiv.org/ftp/arxiv/papers/1206/1206.3594.pdf)
 
-### Algoritmo de Restauração: <COLOCAR LINK DO PROGRAMA AQUI>
