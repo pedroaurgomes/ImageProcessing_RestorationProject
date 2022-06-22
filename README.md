@@ -41,7 +41,7 @@ X = I * H + N
 
 , onde I é a imagem ideal, H é uma PSF (Point Spread Function) e N uma matrix que representa os ruídos.
 
-Com isso, nosso objetivo é utilizar uma metologia que permita, partindo somente da imagem X, nos aproximar da imagem ideal I.
+Com isso, nosso objetivo é utilizar uma metodologia que permita, partindo somente da imagem X, nos aproximar da imagem ideal I.
 
 Desse modo, a intenção é utilizar um método de deconvolução cega (Blind Deconvolution), uma vez que em situações reais não dispomos do conhecimento
 da função de degradação (Point Spread Function). Sendo assim, após realizar uma pesquisa na literatura sobre os algoritmos existentes, foi decidido
