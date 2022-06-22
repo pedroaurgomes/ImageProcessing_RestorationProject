@@ -8,7 +8,9 @@ Final project developed to the SCC-0251 Image Processing Course at ICMC-USP.
 ## Abstract 
 
 As imagens médicas obtidas a partir de exames de ressonância magnética (MRI scans) frequentemente apresentam danos á sua qualidade, normalmente pelo fato 
-do paciente ter se movido durante o procedimento de aquisição da imagem, entre outras coisas. O objetivo principal do projeto é receber essas imagens danificadas na entrada e aplicar técnicas de restauração de imagens a fim de facilitar a visualização das mesmas por parte dos profissionais da área da saúde, possibilitando assim que o diagnóstico possa ser dado de forma eficiente, sem que o exame precise ser repetido.
+do paciente ter se movido durante o procedimento de aquisição da imagem, entre outras coisas. O objetivo principal do projeto é receber essas imagens
+danificadas na entrada e aplicar técnicas de restauração de imagens a fim de facilitar a visualização das mesmas por parte dos profissionais da área da
+saúde, possibilitando assim que o diagnóstico possa ser dado de forma eficiente, sem que o exame precise ser repetido.
 
 ## Principais tarefas de processamento de imagem:
  * Restauração 
@@ -16,25 +18,33 @@ do paciente ter se movido durante o procedimento de aquisição da imagem, entre
 ## Aplicação:
  * Imagens médicas
 
-## Descrição das imagens de input:
-
-
-## Desenvolvimento (descrição dos passos para atingir o objetivo)
+## Metodologia e Desenvolvimento
 
 Primeiramente, obtivemos as imagens de ressonância magnética (MRI) de input a partir de um [Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) disponível no [Kaggle](https://www.kaggle.com/). No entanto, as imagens encontradas não apresentam danos suficientes 
 que justificam reparo. Por esse motivo, optou-se por uma etapa de pré-processamento das imagens, na qual será inserido um efeito de degradação 
 nas imagens com o intuito de simular uma PSF (Point Spread Function), isto é , uma função de degradação, proveniente de acidentes que podem 
 ocorrer na realidade, utilizando filtros de blur.
 
-Algoritmo de pré-processamento: < COLOCAR LINK DO PROGRAMA AQUI>
+### Algoritmo de pré-processamento: < COLOCAR LINK DO PROGRAMA AQUI>
 
 Exemplos de imagens pré-processadas: <COLOCAR IMAGENS ANTES E DEPOIS DO PRÉ-PROCESSAMENTO AQUI>
 
 
-Após o pré-processamento, as imagens serão enviadas de fato ao algoritmo que efetuará o processo de restauração.
+Após o pré-processamento, as imagens serão enviadas como entrada ao algoritmo que efetuará o processo de restauração.
 
+A intenção é utilizar um método de deconvolução cega (Blind deconvolution), uma vez que em situações reais não dispomos do conhecimento da função
+de degradação (Point Spread Function). Sendo assim, após realizar uma pesquisa na literatura sobre os algoritmos existentes, foi decidido que seria
+utilizado o Algoritmo de Deconvolução Cega Richardson-Lucy, o qual estima a imagem restaurada a partir da imagem dada na entrada, bem como a PSF, a 
+partir de uma PSF inicial arbitrária, após uma série de iterações.
 
+#### Modelo RL para estimar a imagem restaurada:
 
+<IMAGEM DA PRIMEIRA EQUAÇÃO>
+
+#### Modelo RL  para estimar a PSF:
+<IMAGEM DA SEGUNDA EQUAÇÃO>
+
+**Referência:**
 [Yu A Bunyak, O Yu Sofina and R N Kvetnyy 2012 Blind PSF estimation and methods of deconvolution optimization](https://arxiv.org/ftp/arxiv/papers/1206/1206.3594.pdf)
 
-## Código inicial
+### Algoritmo de Restauração: <COLOCAR LINK DO PROGRAMA AQUI>
