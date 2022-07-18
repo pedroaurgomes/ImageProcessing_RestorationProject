@@ -48,7 +48,8 @@ da função de degradação (Point Spread Function). Sendo assim, após realizar
 que seria utilizado o Algoritmo de Deconvolução Cega Richardson-Lucy, o qual estima a imagem restaurada a partir da imagem dada na entrada, bem como
 a PSF, a partir de uma PSF inicial arbitrária, após uma série de iterações.
 
-### [Algoritmo de Restauração](./src/PartialResultsRestorationRL.ipynb)
+Notebook:
+### [Algoritmo de Restauração](./src/FinalProjectRestorationRL.ipynb)
 
 #### Modelo RL para estimar a imagem restaurada: <br>
 
@@ -56,6 +57,10 @@ a PSF, a partir de uma PSF inicial arbitrária, após uma série de iterações.
 
 #### Modelo RL  para estimar a PSF: <br>
 ![modelo para estimar a PSF](./assets/EquacaoEstimarPSF.png)
+
+### Conclusão:
+
+Como temos muitas esturturas e dados em Python, temos que foi muito difícil achar algoritmos de blind deconvolution aplicados nessa linguagem (foram achados muito em matlab). Portanto, tivemos a pesquisa como principal dificuldade.
 
 **Referência:**
 [Yu A Bunyak, O Yu Sofina and R N Kvetnyy 2012 Blind PSF estimation and methods of deconvolution optimization](https://arxiv.org/ftp/arxiv/papers/1206/1206.3594.pdf)
