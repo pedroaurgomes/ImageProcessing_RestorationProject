@@ -58,9 +58,17 @@ Notebook:
 #### Modelo RL  para estimar a PSF: <br>
 ![modelo para estimar a PSF](./assets/EquacaoEstimarPSF.png)
 
-### Conclusão:
+Desenvolvemos o algoritmo RL (blind) para restauração, e o comparamos com 2 outras abordagens (non-blind).
 
-Como temos muitas esturturas e dados em Python, temos que foi muito difícil achar algoritmos de blind deconvolution aplicados nessa linguagem (foram achados muito em matlab). Portanto, tivemos a pesquisa como principal dificuldade.
+### Conclusão:
+Blind deconvolution caracteriza uma classe de técnicas e algoritmos que possuem grande potencial na solução de problemas de restauração de imagens, justamente pela 
+sua proposta de restaurar a imagem sem ter acesso à função que a degradou. No entanto, ainda é um problema em aberto, afinal, como pudemos perceber, os resultados 
+das principais técnicas existentes atualmente não são muito satisfatórios. 
+
+### Problemas encontrados
+Além de ser um problema em aberto, tivemos outras dificuldades para a confecção do projeto. Como temos muitas estruturas de dados em Python,foi muito difícil achar 
+algoritmos de blind deconvolution implementados nessa linguagem (foram achados muitos em matlab), sendo assim, outro grande desafio foi encontrar bons exemplos para 
+serem usado como referência e fonte de pesquisa. 
 
 **Referência:**
 [Yu A Bunyak, O Yu Sofina and R N Kvetnyy 2012 Blind PSF estimation and methods of deconvolution optimization](https://arxiv.org/ftp/arxiv/papers/1206/1206.3594.pdf)
